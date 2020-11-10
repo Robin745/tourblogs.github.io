@@ -345,14 +345,11 @@ ul li:hover{
 	position:relative;
 	text-align:center;
 	background-color:lightgrey;
-	height:150px;
 	margin:15px;
 }
-.middle{
-    position:absolute;
-    top:50%;
-	left:50%;
-    transform:translate(-50%,-50%);
+.add img{
+	max-width:100%;
+	height:auto;
 }
 .tags{
 	margin:15px;
