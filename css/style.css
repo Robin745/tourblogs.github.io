@@ -280,7 +280,7 @@ a i{
 
 }
 .texts{
-	margin:25px 0;
+	margin:25px 15px;
 }
 .likebutton{
 	padding:10px 16px;
@@ -372,7 +372,7 @@ ul li:hover{
 }
 .tags img{
 	max-width:215px;
-	height:auto;
+	max-height:215px;
 	margin:5px;
 }
 @media only screen and (max-width: 1600px){
@@ -398,6 +398,12 @@ ul li:hover{
 @media only screen and (max-width: 600px){
    .tags img{
     max-width:170px;
+  }
+
+}
+@media only screen and (max-width: 400px){
+   .tags img{
+    max-width:210px;
   }
 
 }
