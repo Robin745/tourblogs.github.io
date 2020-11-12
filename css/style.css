@@ -294,11 +294,14 @@ a i{
 	background-color:black;
 	color:white;
 	padding:0 15px;
-
+}
+.aside-head p{
+	 text-align: justify;
 }
 .texts{
 	margin:25px 15px;
 	overflow:auto;
+	text-align: justify;
 }
 .likebutton{
 	padding:10px 16px;
