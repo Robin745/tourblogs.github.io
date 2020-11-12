@@ -6,6 +6,7 @@
 body{
 	font-family: "Open Sans";
 	margin:0;
+	overflow:auto;
 	background-color:#f1f1f1;
 }
 div{
@@ -39,8 +40,9 @@ h4{
 }
 h5{
 	font-size:24px;
+	margin:10px 0 0 0;
+	line-height:0;
 	font-weight:400;
-	margin-top:20px;
 }
 h6{
 	font-size:18px;
@@ -54,10 +56,7 @@ hr{
 	border-top:1px solid #eee;
 	margin:10px 0;
 	}
-div{
-	padding:0;
-	margin:0;
-}
+	
 .clearfix:after{
 	content:"";
     display:table;
@@ -117,18 +116,18 @@ a i{
 
 }
 .body{
-	display:flex;
 	margin:auto;
 	background-color:white;
 }
 .header{
 	display:flex;
+	flex-direction:column;
 	margin-top:30px;
 	margin-bottom:0;
 	text-align:center;
 	padding:50px;
 	width:100%;
-	line-height:20px;
+	line-height:10px;
 }
 .color-black{
 	padding:0 7px;
@@ -247,12 +246,14 @@ a i{
 .main{
 	flex:65%;
 	margin:20px;
+	overflow:auto;
 	background-color:#f1f1f1;
 }
 .main-head{
+	display:flex;
+	flex-direction:column;
 	text-align:center;
-	line-height:0;
-	margin-bottom:30px;
+
 }
 .main-contents{
 	background-color:white;
@@ -283,6 +284,7 @@ a i{
 }
 .texts{
 	margin:25px 15px;
+	overflow:auto;
 }
 .likebutton{
 	padding:10px 16px;
