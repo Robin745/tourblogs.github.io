@@ -117,10 +117,12 @@ a i{
 
 }
 .body{
+	display:flex;
 	margin:auto;
 	background-color:white;
 }
 .header{
+	display:flex;
 	margin-top:30px;
 	margin-bottom:0;
 	text-align:center;
